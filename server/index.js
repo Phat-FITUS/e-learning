@@ -12,5 +12,8 @@ database.connect(`mongodb+srv://${process.env.USER_DATABASE}:${process.env.PASSW
 
 app.get('/', (req, res) => res.send("Hello world!"));
 
+const authRoute = require('./route/authorization');
+app.use('/authorization', authRoute);
+
 const PORT = process.env.PORT || 3030;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
