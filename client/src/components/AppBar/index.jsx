@@ -19,8 +19,6 @@ function AppBar() {
       <ELearningComponent />
       <SearchingComponent />
       <SignInComponent />
-
-
     </Box>
   )
 }
