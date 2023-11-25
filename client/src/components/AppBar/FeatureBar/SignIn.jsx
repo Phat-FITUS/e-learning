@@ -1,5 +1,5 @@
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
+import Button from '@mui/material/Button'
+import Box from '@mui/material/Box'
 
 const buttonStyles = {
   width: '142px',
@@ -8,7 +8,7 @@ const buttonStyles = {
   borderRadius: '64px',
   textTransform: 'none',
   fontWeight: 'bold'
-};
+}
 
 function SignInComponent() {
   return (
@@ -45,7 +45,7 @@ function SignInComponent() {
         </Button>
       </Box>
     </Box>
-  );
+  )
 }
 
-export default SignInComponent;
+export default SignInComponent
