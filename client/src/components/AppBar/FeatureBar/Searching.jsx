@@ -40,8 +40,7 @@ function SearchingComponent() {
           sx={{
             ml: 1,
             flex: 1,
-            color: '#666666',
-            fontWeight: 'bold'
+            color: '#666666'
           }}
           placeholder="Tìm kiếm khóa học, bài viết"
           onFocus={handleInputFocus}

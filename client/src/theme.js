@@ -1,7 +1,7 @@
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
 const MAINPAGE_HEADER_ELEMENT_HEIGHT = '34px'
 const MAINPAGE_HEADER_HEIGHT = '66px'
-const MAINPAGE_FOOTER_HEIGHT = '137px'
+const MAINPAGE_FOOTER_HEIGHT = '100px'
 
 const theme = extendTheme({
   typography: {

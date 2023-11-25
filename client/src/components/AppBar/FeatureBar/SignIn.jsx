@@ -6,8 +6,7 @@ const buttonStyles = {
   height: (theme) => theme.elearningCustom.mainpageHeaderElementHeight,
   color: 'white',
   borderRadius: '64px',
-  textTransform: 'none',
-  fontWeight: 'bold'
+  textTransform: 'none'
 }
 
 function SignInComponent() {

@@ -1,10 +1,10 @@
 import Container from '@mui/material/Container'
-import Header from './pages/MainPage/Header'
+import MainPage from './pages/MainPage/_id'
 
 function App() {
   return (
     <Container disableGutters maxWidth={false} sx = {{ height: '100vh' }}>
-      <Header />
+      <MainPage />
     </Container>
   )
 }
