@@ -7,33 +7,32 @@ import MenuBookIcon from '@mui/icons-material/MenuBook'
 import FeedIcon from '@mui/icons-material/Feed'
 function SideBar() {
   const buttonStyle = {
-    width: '100%',
-    height: '80px',
+    width: 'inherit',
+    height: '75px',
     color: '#164863',
     fontSize: '12px',
     textTransform: 'none',
     display: 'flex',
     flexDirection: 'column',
-    '&:hover': { backgroundColor: '#9BBEC8' }
+    '&:hover': { backgroundColor: '#9BBEC8' }, p: 0
   }
   return (
     <Box sx = {{
       paddingTop: 15,
-      width: (theme) => `calc(${theme.elearningCustom.sideBarHeight} + 16px)`,
+      width: (theme) => `calc(${theme.elearningCustom.sideBarHeight})`,
       height: '100%',
       display: 'flex',
-      justifyContent: 'flex-start',
       flexDirection: 'column',
-      alignItems: 'center', paddingLeft: 2
+      alignItems: 'center', paddingLeft: 3
     }}>
       <Stack direction="column" sx = {{
         backgroundColor: '#DDF2FD',
         borderRadius: '64px',
-        width: (theme) => {theme.elearningCustom.sideBarHeight},
+        width: 'inherit',
         position: 'fixed'
       }}>
         <Button sx = {{ ...buttonStyle, borderTopLeftRadius: '64px', borderTopRightRadius: '64px' }}>
-          <HomeIcon fontSize='large'/>
+          <HomeIcon fontSize= 'large' />
           Trang chủ
         </Button>
         <Button sx = {{ ...buttonStyle }}>

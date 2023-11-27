@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box'
 
 import MainContent from './MainContent'
+
 function MainContents() {
   return (
     <Box sx = {{
@@ -13,6 +14,7 @@ function MainContents() {
       justifyContent: 'space-between',
       gap: 1,
       alignItems: 'center',
+      overflowX: 'hidden',
       overflowY: 'auto'
     }}>
       <MainContent />
