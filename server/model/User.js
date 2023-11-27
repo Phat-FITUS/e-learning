@@ -7,9 +7,6 @@ const TaskSchema = new Schema({
         required: true,
         index: true,
         unique: true,
-        trim: true,
-        minLength: 1,
-        maxLength: 16
     },
     password: {
         type: String,
@@ -21,4 +18,4 @@ const TaskSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model('users', TaskSchema);
+module.exports = mongoose.model('User', TaskSchema);
